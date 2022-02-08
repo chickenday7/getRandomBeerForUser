@@ -1,0 +1,14 @@
+@import "./src/assets/styles/mixin";
+@import "src/assets/styles/variables";
+
+
+.username{
+  grid-area: username;
+}
+.username__title{
+  font-family: RobotoBold ;
+  font-size: 60px;
+  color: $gray;
+  letter-spacing: 6px ;
+  font-weight: bold;
+}
