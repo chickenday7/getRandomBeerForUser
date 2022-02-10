@@ -1,10 +1,11 @@
 <template>
-$END$
+<div class="subscription"></div>
 </template>
 
 <script>
+import('./subscriptionStyle.scss')
 export default {
-name: "Subscription"
+  name: "Subscription"
 }
 </script>
 

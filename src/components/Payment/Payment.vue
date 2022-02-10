@@ -1,10 +1,11 @@
 <template>
-$END$
+<div class="payment"></div>
 </template>
 
 <script>
+import('./paymentStyle.scss')
 export default {
-name: "Payment"
+  name: "Payment"
 }
 </script>
 

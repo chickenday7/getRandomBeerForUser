@@ -1,0 +1,16 @@
+@import "src/assets/styles/variables";
+
+.wrapperApp{
+  display: grid;
+  grid-template-areas:
+  "username title title employment"
+  "about avatar avatar payment"
+  "about avatar avatar subscription"
+  "contacts bear nextuser address";
+  grid-auto-columns: 1fr;
+  width: 100vw;
+  height: 100vh;
+  padding: 60px 60px;
+  background: $softyellow;
+}
+

@@ -1,10 +1,13 @@
 <template>
-$END$
+<div class="about">
+
+</div>
 </template>
 
 <script>
+import('./aboutUserStyle.scss')
 export default {
-name: "AboutUser"
+  name: "AboutUser"
 }
 </script>
 

@@ -1,0 +1,15 @@
+@import "src/assets/styles/mixin";
+
+.elemDescription {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.elemDescription__key {
+  @include keyDescription
+}
+
+.elemDescription__value {
+ @include valueDescription
+}

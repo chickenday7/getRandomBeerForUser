@@ -1,10 +1,11 @@
 <template>
-$END$
+<div class="contacts"></div>
 </template>
 
 <script>
+import('./contactsStyle.scss')
 export default {
-name: "Contacts"
+  name: "Contacts"
 }
 </script>
 

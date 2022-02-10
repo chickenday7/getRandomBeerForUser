@@ -1,0 +1,8 @@
+@import "src/assets/styles/mixin";
+
+.employment{
+  grid-area: employment;
+}
+.employment__title{
+  @include title-block
+}

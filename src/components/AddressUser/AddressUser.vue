@@ -1,10 +1,13 @@
 <template>
-$END$
+<div class="address">
+
+</div>
 </template>
 
 <script>
+import('./addressUserStyle.scss')
 export default {
-name: "AddressUser"
+  name: "AddressUser"
 }
 </script>
 
